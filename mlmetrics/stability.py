@@ -6,9 +6,10 @@ __all__ = ['psi']
 # %% ../nbs/01_stability.ipynb 3
 import numpy as np
 import pandas as pd
+from numpy import ndarray
 
-def psi(expected: np.array, # expected array of values (reference)
-        actual: np.array, # actual array of values (production)
+def psi(expected: ndarray, # expected array of values (reference)
+        actual: ndarray, # actual array of values (production)
         buckets=10):
     "Calculate the PSI for a single numeric variable"
 
