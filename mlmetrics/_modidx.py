@@ -33,4 +33,5 @@ d = { 'settings': { 'allowed_cell_metadata_keys': '',
                 'tst_flags': 'notest',
                 'user': 'joaopcnogueira',
                 'version': '0.0.1'},
-  'syms': {'mlmetrics.stability': {'mlmetrics.stability.psi': 'https://joaopcnogueira.github.io/mlmetrics/stability.html#psi'}}}
+  'syms': { 'mlmetrics.classification': {'mlmetrics.classification.ks': 'https://joaopcnogueira.github.io/mlmetrics/classification.html#ks'},
+            'mlmetrics.stability': {'mlmetrics.stability.psi': 'https://joaopcnogueira.github.io/mlmetrics/stability.html#psi'}}}
