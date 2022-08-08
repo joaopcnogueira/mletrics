@@ -15,8 +15,8 @@ format:
     toc-depth: 4
 
 website:
-  title: "mlmetrics"
-  site-url: "https://joaopcnogueira.github.io/mlmetrics/"
+  title: "mletrics"
+  site-url: "https://joaopcnogueira.github.io/mletrics/"
   description: "Machine learning metrics that are not easy to found"
   execute: 
     enabled: false
@@ -24,14 +24,14 @@ website:
   open-graph: true
   reader-mode: true
   repo-branch: main
-  repo-url: "https://github.com/joaopcnogueira/mlmetrics/"
+  repo-url: "https://github.com/joaopcnogueira/mletrics/"
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
     right:
       - icon: github
-        href: "https://github.com/joaopcnogueira/mlmetrics/"
+        href: "https://github.com/joaopcnogueira/mletrics/"
   sidebar:
     style: "floating"
 
