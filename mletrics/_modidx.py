@@ -32,6 +32,6 @@ d = { 'settings': { 'allowed_cell_metadata_keys': '',
                 'title': 'mletrics',
                 'tst_flags': 'notest',
                 'user': 'joaopcnogueira',
-                'version': '0.0.1'},
+                'version': '0.0.3'},
   'syms': { 'mletrics.classification': {'mletrics.classification.ks': 'https://joaopcnogueira.github.io/mletrics/classification.html#ks'},
             'mletrics.stability': {'mletrics.stability.psi': 'https://joaopcnogueira.github.io/mletrics/stability.html#psi'}}}
