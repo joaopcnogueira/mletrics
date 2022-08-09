@@ -202,3 +202,27 @@ psi(y_proba_train, y_proba_test)
 
 Reference:
 https://www.listendata.com/2015/05/population-stability-index.html
+
+### Calculating the KS
+
+``` python
+from mletrics.classification import ks
+
+#ks(y_test, y_proba_test)
+```
+
+    0.5886743886743887
+
+Comparing with the
+[ks](https://joaopcnogueira.github.io/mletrics/classification.html#ks)
+calculated by `scikit-plot`:
+
+``` python
+from scikitplot.metrics import plot_ks_statistic
+
+#plot_ks_statistic(y_test, np.column_stack([1-y_proba_test, y_proba_test]))
+```
+
+    <AxesSubplot:title={'center':'KS Statistic Plot'}, xlabel='Threshold', ylabel='Percentage below threshold'>
+
+![](index_files/figure-gfm/cell-11-output-2.png)
