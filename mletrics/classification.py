@@ -5,10 +5,11 @@ __all__ = ['ks']
 
 # %% ../nbs/02_classification.ipynb 3
 import pandas as pd
+from numpy import ndarray
 from scipy.stats import ks_2samp
 
-def ks(y_true,    # the target variable, contains 0's and 1's
-       y_prob):   # the probability of the
+def ks(y_true: ndarray,    # the target variable, contains 0's and 1's
+       y_prob: ndarray):   # the probability of the
 
    df = pd.DataFrame({
       'target': y_true,
